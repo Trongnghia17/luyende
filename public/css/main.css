@@ -264,14 +264,32 @@
   }
   
   .achievements_novaedu_items {
+    min-height: 620px;
+    height: auto;
     border-radius: 15px;
     border: 1px solid rgba(255, 149, 232, 0.6);
     background: #fff;
     box-shadow: 0px 0px 25px 0px rgba(255, 149, 232, 0.2);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .achievements_novaedu_items p {
+    font-size: 16px;
+    color: #632125;
+    margin-bottom: 15px;
+  }
+  
+  .achievements_novaedu_items ul {
+    padding-left: 20px;
+    margin-bottom: 0;
   }
   
   .achievements_novaedu_items ul li {
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: #414141;
   }
   
   .number_impression {
@@ -535,10 +553,28 @@
   .achievements_novaedu_items_img {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 200px;
   }
   
   .achievements_novaedu_items img {
-    width: 70%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 149, 232, 0.3);
+  }
+
+  /* Fixed sized avatar used on welcome page for specific student image */
+  .achievements_novaedu_items img.fixed-size {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* crop to fill the box while preserving aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
   }
   
   .parental_difficulti_title {
@@ -546,7 +582,7 @@
     border-radius: 15px;
     background: #fff;
     box-shadow: 0px 0px 20px 0px rgba(154, 227, 0, 0.2);
-    height: 55px;
+    height: 154px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -974,8 +1010,22 @@
       margin-bottom: 20px;
     }
   
+    .achievements_novaedu_items {
+      min-height: 550px;
+    }
+    
     .achievements_novaedu_items img {
-      width: 100%;
+      width: 180px;
+      height: 180px;
+    }
+    
+    .achievements_novaedu_items_img {
+      height: 180px;
+    }
+    
+    .achievements_novaedu_items ul li {
+      font-size: 13px;
+      margin-bottom: 6px;
     }
   
     .text-center-form {

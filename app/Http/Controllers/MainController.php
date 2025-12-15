@@ -11,12 +11,18 @@ class MainController extends Controller
     {
         $formData = $request->validate([
             'name' => 'required|string|max:255',
+            'khoi' => 'required|string|max:10',
+            'bode' => 'required|string|max:255',
             'phone' => 'required|string|max:15',
+            'email' => 'nullable|email|max:255',
         ]);
         $user = new AcountLadipageModel();
         $user->name = $formData['name'];
         $user->type_ladipage = 1;
         $user->phone = $formData['phone'];
+        $user->khoi = $formData['khoi'];
+        $user->bode = $formData['bode'];
+        $user->email = $formData['email'] ?? null;
         $user->math = $request->has('math') ? 1 : 0;
         $user->english = $request->has('english') ? 1 : 0;
         $user->literature = $request->has('literature') ? 1 : 0;
@@ -28,12 +34,18 @@ class MainController extends Controller
     {
         $formData = $request->validate([
             'name' => 'required|string|max:255',
+            'khoi' => 'required|string|max:10',
+            'bode' => 'required|string|max:255',
             'phone1' => 'required|string|max:15',
+            'email' => 'nullable|email|max:255',
         ]);
         $user = new AcountLadipageModel();
         $user->name = $formData['name'];
         $user->type_ladipage = 1;
         $user->phone = $formData['phone1'];
+        $user->khoi = $formData['khoi'];
+        $user->bode = $formData['bode'];
+        $user->email = $formData['email'] ?? null;
         $user->math = $request->has('math') ? 1 : 0;
         $user->english = $request->has('english') ? 1 : 0;
         $user->literature = $request->has('literature') ? 1 : 0;
