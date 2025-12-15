@@ -45,7 +45,19 @@
     width: max-content;
     padding: 5px 10px;
   }
-  
+  .banner h5 {
+    color: #fff;
+    font-size:35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 12px;
+    background: linear-gradient(96deg, #5be1ff 0%, #acff60 100%);
+    width: max-content;
+    padding: 5px 10px;
+   position: relative;
+    z-index: 1000;
+  }
   .banner .text_banner {
     color: #0142a5;
     font-size: 25px;
