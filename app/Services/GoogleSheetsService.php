@@ -13,12 +13,26 @@ class GoogleSheetsService
 
     public function __construct()
     {
-        $this->spreadsheetId = '1-bA8gpCF3OUh3gpgVO-tqV3OZU0s7uDtQ63Xa-ppWdI';
+        $this->spreadsheetId = env('GOOGLE_SHEETS_SPREADSHEET_ID', '1-bA8gpCF3OUh3gpgVO-tqV3OZU0s7uDtQ63Xa-ppWdI');
         
         $this->client = new Client();
         $this->client->setApplicationName('Nova Luyende');
         $this->client->setScopes([Sheets::SPREADSHEETS]);
-        $this->client->setAuthConfig(storage_path('app/google-credentials.json'));
+        
+        // Sử dụng credentials từ biến môi trường hoặc file
+        $credentialsPath = storage_path('app/google-credentials.json');
+        if (file_exists($credentialsPath)) {
+            $this->client->setAuthConfig($credentialsPath);
+        } else {
+            // Lấy credentials từ .env (dạng JSON string)
+            $credentials = env('GOOGLE_SHEETS_CREDENTIALS');
+            if ($credentials) {
+                $this->client->setAuthConfig(json_decode($credentials, true));
+            } else {
+                throw new \Exception('Google Sheets credentials not found. Please set GOOGLE_SHEETS_CREDENTIALS in .env or create google-credentials.json file.');
+            }
+        }
+        
         $this->client->setAccessType('offline');
         
         $this->service = new Sheets($this->client);
