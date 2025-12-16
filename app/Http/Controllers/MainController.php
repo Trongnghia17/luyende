@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\AcountLadipageModel;
+use App\Services\GoogleSheetsService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class MainController extends Controller
 {
@@ -16,17 +18,36 @@ class MainController extends Controller
             'phone' => 'required|string|max:15',
             'email' => 'nullable|email|max:255',
         ]);
+        
+        // Lưu vào database
         $user = new AcountLadipageModel();
         $user->name = $formData['name'];
-        $user->type_ladipage = 1;
         $user->phone = $formData['phone'];
         $user->khoi = $formData['khoi'];
         $user->bode = $formData['bode'];
         $user->email = $formData['email'] ?? null;
-        $user->math = $request->has('math') ? 1 : 0;
-        $user->english = $request->has('english') ? 1 : 0;
-        $user->literature = $request->has('literature') ? 1 : 0;
         $user->save();
+        
+        // Lưu vào Google Sheets
+        try {
+            $googleSheets = new GoogleSheetsService();
+            $stt = $googleSheets->getNextSTT();
+            
+            $googleSheets->appendData([
+                'stt' => $stt,
+                'name' => $formData['name'],
+                'khoi' => $formData['khoi'],
+                'bode' => $formData['bode'],
+                'phone' => $formData['phone'],
+                'email' => $formData['email'] ?? '',
+                'tham_gia_chua' => '',
+                'group_link' => 'https://zalo.me/g/wnvnikf40'
+            ]);
+        } catch (\Exception $e) {
+            // Log lỗi nhưng vẫn trả về success vì đã lưu vào database
+            Log::error('Google Sheets Error: ' . $e->getMessage());
+        }
+        
         return response()->json(['msg' => 'Bạn đã đăng ký học thử thành công']);
     }
 
@@ -39,17 +60,36 @@ class MainController extends Controller
             'phone1' => 'required|string|max:15',
             'email' => 'nullable|email|max:255',
         ]);
+        
+        // Lưu vào database
         $user = new AcountLadipageModel();
         $user->name = $formData['name'];
-        $user->type_ladipage = 1;
         $user->phone = $formData['phone1'];
         $user->khoi = $formData['khoi'];
         $user->bode = $formData['bode'];
         $user->email = $formData['email'] ?? null;
-        $user->math = $request->has('math') ? 1 : 0;
-        $user->english = $request->has('english') ? 1 : 0;
-        $user->literature = $request->has('literature') ? 1 : 0;
         $user->save();
+        
+        // Lưu vào Google Sheets
+        try {
+            $googleSheets = new GoogleSheetsService();
+            $stt = $googleSheets->getNextSTT();
+            
+            $googleSheets->appendData([
+                'stt' => $stt,
+                'name' => $formData['name'],
+                'khoi' => $formData['khoi'],
+                'bode' => $formData['bode'],
+                'phone' => $formData['phone1'],
+                'email' => $formData['email'] ?? '',
+                'tham_gia_chua' => '', // Có thể cập nhật sau
+                'group_link' => 'https://zalo.me/g/wnvnikf40' // Link group mặc định
+            ]);
+        } catch (\Exception $e) {
+            // Log lỗi nhưng vẫn trả về success vì đã lưu vào database
+            Log::error('Google Sheets Error: ' . $e->getMessage());
+        }
+        
         return response()->json(['msg' => 'Bạn đã đăng ký học thử thành công']);
     }
 
