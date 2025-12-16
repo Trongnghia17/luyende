@@ -793,7 +793,7 @@
                 <div class="problem_status_items d-flex flex-column" style="height: 100%; width: 100%;">
 
                     <div>
-                        <img src="{{ asset('images/lo_on_sai_huong.png') }}" alt="Lo ôn sai hướng"
+                        <img src="{{ asset('images/1.jpg') }}" alt="Lo ôn sai hướng"
                             style="max-width: 100%; height: 250px;">
                     </div>
 
@@ -809,7 +809,7 @@
             <div class="col-md-4 px-4 mt-md-0 mt-3 d-flex">
                 <div class="problem_status_items d-flex flex-column" style="height: 100%; width: 100%;">
                     <div>
-                        <img src="{{ asset('images/hoangmang.png') }}" alt="Hoang mang"
+                        <img src="{{ asset('images/2.jpg') }}" alt="Hoang mang"
                             style="max-width: 100%; height: 250px;">
                     </div>
 
@@ -825,7 +825,7 @@
             <div class="col-md-4 px-4 mt-md-0 mt-3 d-flex">
                 <div class="problem_status_items d-flex flex-column" style="height: 100%; width: 100%;">
                     <div>
-                        <img src="{{ asset('images/khonghieu.png') }}" alt="Giảng hoài mà con không hiểu"
+                        <img src="{{ asset('images/3.jpg') }}" alt="Giảng hoài mà con không hiểu"
                             style="max-width: 100%; height: 250px;">
                     </div>
 
@@ -3106,18 +3106,16 @@
                 <div class="d-flex justify-content-center align-items-center nova_form_item1 py-3">
                     <img src="images/Rectangle 12.png" alt="">
                     <div>
-                        <p class="mb-0 fw-bold nova_form_item1_P">40 suất kiểm tra năng lực miễn phí</p>
-                        <p class="mb-0">Học viên được tham gia buổi học thử của các khóa học tại NOVATEEN được tổ chức
-                            hàng tuần. Hoàn toàn miễn phí.</p>
+                        <p class="mb-0 fw-bold nova_form_item1_P">120 bộ đề khối THCS</p>
+                        <p class="mb-0">Novateen gửi tặng tới các bạn học sinh 120 bộ đề luyện thi học kỳ 1 với 3 môn Toán - Văn - Anh</p>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-center align-items-center nova_form_item2 mt-md-5 mt-3 py-3">
                     <img src="images/anhsang.png" alt="">
                     <div>
-                        <p class="mb-0 fw-bold nova_form_item1_P">20 suất học thử miễn phí</p>
-                        <p class="mb-0">Học sinh sẽ được đánh giá trình độ hiện tại trực tiếp với giáo viên hoặc thông
-                            qua các bài thi. Hoàn toàn miễn phí.</p>
+                        <p class="mb-0 fw-bold nova_form_item1_P">50 suất tham gia tổng ôn chữa đề</p>
+                        <p class="mb-0">Novateen dành tặng 50 suất học bổng Khóa Tổng ôn Kiến thức học kì I và chữa đề bám sát nội dung thi đến từ các thầy cô đang giảng dạy tại các trường top đầu.</p>
                     </div>
                 </div>
             </div>
