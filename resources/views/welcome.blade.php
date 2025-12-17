@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="{{ asset('images/logonovateen.png') }}" />
+    <meta property="og:image" content="{{ asset('images/nen.jpg') }}" />
     <meta property="og:site_name" content="novateen.vn" />
     <meta property="og:description"
-        content="Nền tảng công nghệ học thi trực tuyến Toán - Văn - Anh dành cho học sinh cấp 2 hàng đầu, giúp các bạn học sinh, phụ huynh có thể dễ dàng học tập trực tuyến, kiểm tra kiến thức, đánh giá năng lực và nâng cao kiến thức nhanh chóng, tiện lợi. Tất cả có trên NovaTeen.vn!" />
-    <meta property="og:title" content="NovaTeen - Nền tảng học thi trực tuyến" />
-    <meta property="og:url" content="https://hoctot.novateen.vn/" />
+        content="Novateen gửi tặng tới các bạn học sinh 120 bộ đề luyện thi học kỳ 1 khối THCS 3 môn Toán - Văn - Anh  và 50 suất Chữa đề miễn phí - Cam kết tăng band điểm" />
+    <meta property="og:title" content="Tặng Bộ đề Thi Học kỳ I Toán - Anh - Văn" />
+    <meta property="og:url" content="https:/luyende.novateen.vn/" />
     <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}">
     <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
