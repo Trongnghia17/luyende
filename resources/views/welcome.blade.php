@@ -10587,9 +10587,9 @@
                                 <form action="{{ route('submit2') }}" id="form-dang-ky-popup" method="post">
                                     @csrf
                                     <div class="text-center mb-4">
-                                        <div class="badge-offer mb-3">🔥 ƯU ĐÃI ĐẶC BIỆT</div>
-                                        <h3 class="fw-bold gradient-text mb-2">ĐĂNG KÝ NGAY</h3>
-                                        <p class="text-muted small">Bộ Đề Ôn Thi Học Kì I</p>
+                                        <div class="badge-offer mb-3">🔥 CHỮA ĐỀ MIỄN PHÍ</div>
+                                        <h3 class="fw-bold gradient-text mb-2">BỘ ĐỀ ÔN THI HỌC KỲ I</h3>
+                                    
                                     </div>
 
                                     <div class="form-group-modern mb-3">
