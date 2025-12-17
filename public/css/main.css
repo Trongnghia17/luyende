@@ -653,11 +653,24 @@
     z-index: 10;
   }
   .border_abs_header {
-    background: #00b031;
-    border: 1px solid #00b031;
     position: absolute;
     top: 55px;
     z-index: 1;
+    width: 100%;
+    height: 2px;
+   
+  }
+  
+  .border_abs_header::before {
+    content: '▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶ ▶';
+    position: absolute;
+    width: 100%;
+    color: #00b031;
+    font-size: 12px;
+   
+    top: -6px;
+    left: 0;
+    overflow: hidden;
   }
   
   .border_res_items {

@@ -794,7 +794,7 @@
 
                     <div>
                         <img src="{{ asset('images/1.jpg') }}" alt="Lo ôn sai hướng"
-                            style="max-width: 100%; height: 250px;">
+                            style="max-width: 100%; height: 326px;">
                     </div>
 
 
@@ -809,8 +809,7 @@
             <div class="col-md-4 px-4 mt-md-0 mt-3 d-flex">
                 <div class="problem_status_items d-flex flex-column" style="height: 100%; width: 100%;">
                     <div>
-                        <img src="{{ asset('images/2.jpg') }}" alt="Hoang mang"
-                            style="max-width: 100%; height: 250px;">
+                        <img src="{{ asset('images/2.jpg') }}" alt="Hoang mang" style="max-width: 100%; height: 326px;">
                     </div>
 
 
@@ -826,7 +825,7 @@
                 <div class="problem_status_items d-flex flex-column" style="height: 100%; width: 100%;">
                     <div>
                         <img src="{{ asset('images/3.jpg') }}" alt="Giảng hoài mà con không hiểu"
-                            style="max-width: 100%; height: 250px;">
+                            style="max-width: 100%; height: 326px;">
                     </div>
 
                     <div class="text-center fw-bold mt-3 flex-grow-1" style="color: #632125;">
@@ -1461,8 +1460,8 @@
 
             <div class="col-md-8 d-flex justify-content-center align-items-center">
                 <div class="px-md-5 px-2">
-                    <p class="fw-bold ms-3 mb-2" style="color: rgba(99, 33, 37, 1);">NovaTeen hiểu
-                        được nỗi lo của các phụ huynh hiện tại:</p>
+                    <p class="fw-bold ms-3 mb-2" style="color: rgba(99, 33, 37, 1);">NovaTeen cảm thông sự căng thẳng
+                        của các con ở mỗi kỳ thi: </p>
                     <ul class="ms-3" style="color:rgba(99, 33, 37, 1)">
                         <li>Chưa quen dạng bài, con làm bài chậm, dễ mất điểm do thiếu kỹ thuật
                         </li>
@@ -1489,10 +1488,9 @@
                                     d="M2.375 17.7188H8.90625V21.2812H2.375V17.7188Z" fill="#FF1E2C" />
                             </svg></p>
 
-                        <p class="mb-0"><span class="fw-bold" style="color:#FF5C65">Thái độ của con không
-                                tốt:</span><i class="fw-bold"> Lười học, không chịu làm bài tập
-                                về nhà, dễ mất tập trung khi học các khóa
-                                học Onine hoặc trực tuyến</i></p>
+                        <p class="mb-0"><span class="fw-bold" style="color:#FF5C65">Tinh thần của con không
+                                tốt:</span><i class="fw-bold"> Lo sợ dễ mất tập trung, căng thẳng với điểm số, áp lực
+                                thi cử</i></p>
                     </div>
                 </div>
             </div>
@@ -2306,7 +2304,7 @@
             <div class="d-flex justify-content-center mt-4 mt-md-0">
                 <a href="https://zalo.me/g/muvofh840" target="_blank"
                     class="text-white border-0 rounded-pill fw-bold py-2 px-5 text-decoration-none"
-                    style="background-color: #FF5C65; display: inline-block;">Học thử miễn phí nhé</a>
+                    style="background-color: #FF5C65; display: inline-block;">ĐỒNG HÀNH CÙNG CON NHÉ BA MẸ!</a>
             </div>
         </div>
         <!-- slider lộ trình học -->
@@ -2480,7 +2478,7 @@
             <div class="d-flex justify-content-center mt-4 mt-md-0">
                 <a href="https://zalo.me/g/muvofh840" target="_blank"
                     class="text-white border-0 rounded-pill fw-bold py-2 px-5 text-decoration-none"
-                    style="background-color: #FF5C65; display: inline-block;">Học thử miễn phí nhé</a>
+                    style="background-color: #FF5C65; display: inline-block;">Nhận ngay bộ đề miên phí</a>
             </div>
         </div>
     </div>
@@ -3107,7 +3105,8 @@
                     <img src="images/Rectangle 12.png" alt="">
                     <div>
                         <p class="mb-0 fw-bold nova_form_item1_P">120 bộ đề khối THCS</p>
-                        <p class="mb-0">Novateen gửi tặng tới các bạn học sinh 120 bộ đề luyện thi học kỳ 1 với 3 môn Toán - Văn - Anh</p>
+                        <p class="mb-0">Novateen gửi tặng tới các bạn học sinh 120 bộ đề luyện thi học kỳ 1 với 3 môn
+                            Toán - Văn - Anh</p>
                     </div>
                 </div>
 
@@ -3115,7 +3114,8 @@
                     <img src="images/anhsang.png" alt="">
                     <div>
                         <p class="mb-0 fw-bold nova_form_item1_P">50 suất tham gia tổng ôn chữa đề</p>
-                        <p class="mb-0">Novateen dành tặng 50 suất học bổng Khóa Tổng ôn Kiến thức học kì I và chữa đề bám sát nội dung thi đến từ các thầy cô đang giảng dạy tại các trường top đầu.</p>
+                        <p class="mb-0">Novateen dành tặng 50 suất học bổng Khóa Tổng ôn Kiến thức học kì I và chữa đề
+                            bám sát nội dung thi đến từ các thầy cô đang giảng dạy tại các trường top đầu.</p>
                     </div>
                 </div>
             </div>
@@ -3815,7 +3815,7 @@
 
         <div class="d-flex justify-content-center mt-4 mt-md-5">
             <button id="dangkitest3" class="text-white border-0 rounded-pill fw-bold py-2 px-5"
-                style="background-color: #0142A5;">Học thử miễn phí nhé</button>
+                style="background-color: #0142A5;">Nhận ngay bộ đề miên phí</button>
             <script>
                 document.getElementById('dangkitest3').addEventListener('click', function () {
                     if (window.matchMedia("(min-width: 1280px)").matches) {
@@ -4445,9 +4445,9 @@
             </h2>
         </div>
 
-        <div class="d-md-block d-none">
-            <div class="row mt-4">
-                <div class="col-md-4 px-4 mb-3 ">
+        <div class="d-md-block d-none" style="overflow-x: hidden;">
+            <div class="slider mt-4">
+                <div class="item px-4 mb-3">
                     <div class="achievements_novaedu_items p-4">
                         <div>
                             <img class="fixed-size" src="images/maitrang.png" alt="">
@@ -4465,7 +4465,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 px-4 mb-3 ">
+                <div class="item px-4 mb-3">
                     <div class="achievements_novaedu_items p-4">
                         <div>
                             <img class="fixed-size" src="images/ngocphuong.png" alt="">
@@ -4485,7 +4485,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 px-4 mb-3 ">
+                <div class="item px-4 mb-3">
                     <div class="achievements_novaedu_items p-4">
                         <div>
                             <img class="fixed-size" src="images/ngoctung.png" alt="">
@@ -4503,7 +4503,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 px-4 mb-3 ">
+
+                <div class="item px-4 mb-3">
                     <div class="achievements_novaedu_items p-4">
                         <div>
                             <img class="fixed-size" src="images/nhuy.png" alt="">
@@ -4523,7 +4524,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 px-4 mb-3 ">
+
+                <div class="item px-4 mb-3">
                     <div class="achievements_novaedu_items p-4">
                         <div>
                             <img class="fixed-size" src="images/ngockhanh.png" alt="">
@@ -5303,7 +5305,7 @@
                 </ul>
                 <div class="d-flex justify-content-center btn-dangky mb-4 mb-md-0">
                     <button id="dangkyngay1" class="dangkyngay">
-                        <h4 class="mb-0" id="dangkyngay">ĐĂNG KÝ NGAY</h4><span><svg class="ms-2"
+                        <h4 class="mb-0" id="dangkyngay">ĐĂNG KÝ BỘ ĐỀ</h4><span><svg class="ms-2"
                                 xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 25"
                                 fill="none">
                                 <path d="M18 12.5L0 24.1913L0 0.808657L18 12.5Z" fill="#FF1E2C" />
@@ -5338,7 +5340,7 @@
                 </ul>
                 <div class="d-flex justify-content-center btn-dangky mb-4 mb-md-0">
                     <button id="dangkyngay2" class="dangkyngay">
-                        <h4 class="mb-0 fw-bold">ĐĂNG KÝ NGAY</h4><span><svg class="ms-2"
+                        <h4 class="mb-0 fw-bold">ĐĂNG KÝ BỘ ĐỀ<!--  --></h4><span><svg class="ms-2"
                                 xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 25"
                                 fill="none">
                                 <path d="M18 12.5L0 24.1913L0 0.808657L18 12.5Z" fill="#FF1E2C" />
@@ -5373,17 +5375,16 @@
                 </ul>
                 <div class="d-flex justify-content-center btn-dangky mb-4 mb-md-0">
                     <button id="dangkyngay3" class="dangkyngay">
-                        <h4 class="mb-0">ĐĂNG KÝ NGAY</h4><span><svg class="ms-2" xmlns="http://www.w3.org/2000/svg"
-                                width="18" height="25" viewBox="0 0 18 25" fill="none">
+                        <h4 class="mb-0">THAM GIA CỘNG ĐỒNG PHỤ HUYNH</h4><span><svg class="ms-2"
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 25"
+                                fill="none">
                                 <path d="M18 12.5L0 24.1913L0 0.808657L18 12.5Z" fill="#FF1E2C" />
                             </svg></span>
                     </button>
 
                     <script>
                         document.getElementById('dangkyngay3').addEventListener('click', function () {
-                            document.querySelector('.footer ').scrollIntoView({
-                                behavior: 'smooth'
-                            });
+                            window.open('https://zalo.me/g/muvofh840', '_blank');
                         });
                     </script>
                 </div>
@@ -6022,7 +6023,7 @@
                     </ul>
                     <div class="d-flex justify-content-center btn-dangky mb-4 mb-md-0">
                         <button id="dangkyngay1" class="dangkyngay">
-                            <h4 class="mb-0" id="dangkyngay">ĐĂNG KÝ NGAY</h4><span><svg class="ms-2"
+                            <h4 class="mb-0" id="dangkyngay">ĐĂNG KÝ BỘ ĐỀ</h4><span><svg class="ms-2"
                                     xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 25"
                                     fill="none">
                                     <path d="M18 12.5L0 24.1913L0 0.808657L18 12.5Z" fill="#FF1E2C" />
@@ -6056,7 +6057,7 @@
                     </ul>
                     <div class="d-flex justify-content-center btn-dangky mb-4 mb-md-0">
                         <button id="dangkyngay2" class="dangkyngay">
-                            <h4 class="mb-0 fw-bold">ĐĂNG KÝ NGAY</h4><span><svg class="ms-2"
+                            <h4 class="mb-0 fw-bold">ĐĂNG KÝ BỘ ĐỀ</h4><span><svg class="ms-2"
                                     xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 25"
                                     fill="none">
                                     <path d="M18 12.5L0 24.1913L0 0.808657L18 12.5Z" fill="#FF1E2C" />
@@ -6089,17 +6090,16 @@
                     </ul>
                     <div class="d-flex justify-content-center btn-dangky mb-4 mb-md-0">
                         <button id="dangkyngay3" class="dangkyngay">
-                            <h4 class="mb-0">ĐĂNG KÝ NGAY</h4><span><svg class="ms-2" xmlns="http://www.w3.org/2000/svg"
-                                    width="18" height="25" viewBox="0 0 18 25" fill="none">
+                            <h4 class="mb-0">THAM GIA CỘNG ĐỒNG PHỤ HUYNH
+                            </h4><span><svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="18" height="25"
+                                    viewBox="0 0 18 25" fill="none">
                                     <path d="M18 12.5L0 24.1913L0 0.808657L18 12.5Z" fill="#FF1E2C" />
                                 </svg></span>
                         </button>
 
                         <script>
                             document.getElementById('dangkyngay3').addEventListener('click', function () {
-                                document.querySelector('.footer ').scrollIntoView({
-                                    behavior: 'smooth'
-                                });
+                                window.open('https://zalo.me/g/muvofh840', '_blank');
                             });
                         </script>
                     </div>
@@ -10069,12 +10069,65 @@
                     <h1>HỌC NOVATEEN</h1>
                     <p class="fw-bold text_banner mt-4">ĐỖ TRƯỜNG <span>CÔNG
                             LẬP</span> KHÔNG HỀ KHÓ </p>
-                    <ul>
-                        <li>Địa chỉ: 22 Thành Công, Ba Đình, Hà Nội</li>
-                        <li>Số điện thoại: 038.957.2993</li>
-                        <li>Email:novaedu.vn@gmail.com</li>
-                        <li>Website: <a href="https://novateen.vn/" target="_blank">novateen.vn</a></li>
-                    </ul>
+
+                    <div class="footer-contact-info mt-4">
+                        <div class="contact-item d-flex align-items-start mb-3">
+                            <svg class="me-3 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="#FF5C65" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <strong>Địa chỉ:</strong><br>
+                                22 Thành Công, Quận Ba Đình, Hà Nội
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex align-items-center mb-3">
+                            <svg class="me-3 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="#FF5C65" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                            <div>
+                                <strong>Hotline:</strong> <a href="tel:0389572993"
+                                    style="color: inherit; text-decoration: none;">038.957.2993</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex align-items-center mb-3">
+                            <svg class="me-3 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="#FF5C65" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <div>
+                                <strong>Email:</strong> <a href="mailto:novaedu.vn@gmail.com"
+                                    style="color: inherit; text-decoration: none;">novaedu.vn@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex align-items-center mb-3">
+                            <svg class="me-3 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="#FF5C65" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+                            <div>
+                                <strong>Website:</strong> <a href="https://novateen.vn/" target="_blank"
+                                    style="color: #FF5C65; text-decoration: none;">novateen.vn</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div>
@@ -10182,7 +10235,7 @@
         <div class="nav-box">
             <ul class="nav-container mb-0 p-md-0 py-2 px-0">
                 <li class="nav__item">
-                    <a target="_blank" href="https://zalo.me/0389572993" class="nav__item-link">
+                    <a target="_blank" href="https://zalo.me/g/muvofh840" class="nav__item-link">
                         <div class="nav__item-icon member_img_bar_right">
                             <img class="w-100" src="{{ asset('images/zaloicon.png') }}" alt="Tư vấn ngay">
                         </div>
@@ -10503,6 +10556,541 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0"
         nonce="szLvG1RG"></script>
+
+    <!-- Modal Popup Form Đăng Ký -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content modern-modal">
+                <button type="button" class="btn-close-modern" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+                        <!-- Left Side - Image/Decoration -->
+                        <div class="col-md-5 modal-left-side d-none d-md-flex">
+                            <div class="decoration-content">
+                                <div class="icon-float icon-1">📚</div>
+                                <div class="icon-float icon-2">✨</div>
+                                <div class="icon-float icon-3">🎯</div>
+                                <div class="text-center">
+                                    <h4 class="text-white fw-bold mb-3">Cơ Hội Vàng!</h4>
+                                    <p class="text-white opacity-90">Nhận ngay bộ đề ôn thi học kì I hoàn toàn MIỄN PHÍ</p>
+                                    <div class="gift-icon">🎁</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Right Side - Form -->
+                        <div class="col-md-7">
+                            <div class="p-4 p-md-5">
+                                <form action="{{ route('submit2') }}" id="form-dang-ky-popup" method="post">
+                                    @csrf
+                                    <div class="text-center mb-4">
+                                        <div class="badge-offer mb-3">🔥 ƯU ĐÃI ĐẶC BIỆT</div>
+                                        <h3 class="fw-bold gradient-text mb-2">ĐĂNG KÝ NGAY</h3>
+                                        <p class="text-muted small">Bộ Đề Ôn Thi Học Kì I</p>
+                                    </div>
+
+                                    <div class="form-group-modern mb-3">
+                                        <div class="input-icon">
+                                            <i class="fas fa-user"></i>
+                                            <input type="text" class="input-modern" name="name" placeholder="Họ và tên *" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group-modern mb-3">
+                                        <div class="input-icon">
+                                            <i class="fas fa-graduation-cap"></i>
+                                            <select class="input-modern" name="khoi" required>
+                                                <option value="">Chọn khối *</option>
+                                                <option value="6">Khối 6</option>
+                                                <option value="7">Khối 7</option>
+                                                <option value="8">Khối 8</option>
+                                                <option value="9">Khối 9</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group-modern mb-3">
+                                        <div class="input-icon">
+                                            <i class="fas fa-book"></i>
+                                            <select class="input-modern" name="bode" required>
+                                                <option value="">Chọn bộ đề *</option>
+                                                <option value="toan">📐 Toán</option>
+                                                <option value="van">📖 Văn</option>
+                                                <option value="anh">🌍 Anh</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group-modern mb-3">
+                                        <div class="input-icon">
+                                            <i class="fas fa-phone"></i>
+                                            <input type="text" class="input-modern" name="phone1" placeholder="Số điện thoại *" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group-modern mb-4">
+                                        <div class="input-icon">
+                                            <i class="fas fa-envelope"></i>
+                                            <input type="email" class="input-modern" name="email" placeholder="Email">
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn-submit-modern w-100">
+                                        <span>Đăng Ký Nhận Đề Ngay</span>
+                                        <i class="fas fa-arrow-right ms-2"></i>
+                                    </button>
+
+                                    <div class="form-alert mt-3" id="form-alert-popup"></div>
+                                    
+                                    <p class="text-center mt-3 small text-muted">
+                                        <i class="fas fa-lock me-1"></i> Thông tin của bạn được bảo mật 100%
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Font Awesome CDN */
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+        
+        /* Modal Animation */
+        #registerModal.show .modal-dialog {
+            animation: zoomIn 0.5s ease-out;
+        }
+        
+        @keyframes zoomIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8) translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        /* Modern Modal Styling */
+        .modern-modal {
+            border-radius: 25px !important;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border: none;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Close Button */
+        .btn-close-modern {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .btn-close-modern:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(90deg);
+        }
+
+        /* Left Side Decoration */
+        .modal-left-side {
+            background: #FF5C65;
+            position: relative;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .modal-left-side::before {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            top: -100px;
+            left: -100px;
+        }
+
+        .modal-left-side::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            bottom: -50px;
+            right: -50px;
+        }
+
+        .decoration-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Floating Icons Animation */
+        .icon-float {
+            position: absolute;
+            font-size: 40px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .icon-float.icon-1 {
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .icon-float.icon-2 {
+            top: 60%;
+            right: 15%;
+            animation-delay: 1s;
+        }
+
+        .icon-float.icon-3 {
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 2s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .gift-icon {
+            font-size: 80px;
+            margin-top: 20px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        /* Badge Offer */
+        .badge-offer {
+            display: inline-block;
+            background: #FF5C65;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 13px;
+            font-weight: bold;
+            animation: shake 2s ease-in-out infinite;
+        }
+
+        @keyframes shake {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-5px);
+            }
+            75% {
+                transform: translateX(5px);
+            }
+        }
+
+        /* Gradient Text */
+        .gradient-text {
+            color: #FF5C65;
+            font-size: 28px;
+        }
+
+        /* Modern Input Styling */
+        .form-group-modern {
+            position: relative;
+        }
+
+        .input-icon {
+            position: relative;
+        }
+
+        .input-icon i {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #FF5C65;
+            font-size: 18px;
+            z-index: 1;
+        }
+
+        .input-modern {
+            width: 100%;
+            padding: 15px 20px 15px 50px;
+            border: 2px solid #e8e8e8;
+            border-radius: 15px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            background: #f8f9fa;
+        }
+
+        .input-modern:focus {
+            outline: none;
+            border-color: #FF5C65;
+            background: white;
+            box-shadow: 0 5px 15px rgba(255, 92, 101, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .input-modern::placeholder {
+            color: #aaa;
+        }
+
+        /* Submit Button */
+        .btn-submit-modern {
+            background: #FF5C65;
+            border: none;
+            color: white;
+            padding: 16px 30px;
+            border-radius: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-submit-modern::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .btn-submit-modern:hover::before {
+            left: 100%;
+        }
+
+        .btn-submit-modern:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 92, 101, 0.4);
+        }
+
+        .btn-submit-modern:active {
+            transform: translateY(-1px);
+        }
+
+        /* Alert Styling */
+        #form-alert-popup .alert {
+            border-radius: 12px;
+            border: none;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #form-alert-popup .alert-success {
+            background: #00AF31;
+            color: white;
+        }
+
+        #form-alert-popup .alert-danger {
+            background: #FF5C65;
+            color: white;
+        }
+
+        /* Backdrop */
+        #registerModal .modal-backdrop {
+            backdrop-filter: blur(5px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .gradient-text {
+                font-size: 22px;
+            }
+            
+            .modal-content {
+                margin: 10px;
+            }
+            
+            .btn-close-modern {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+        }
+
+        /* Loading Animation for Submit Button */
+        .btn-submit-modern.loading {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+        .btn-submit-modern.loading span::after {
+            content: '...';
+            animation: dots 1.5s steps(4, end) infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% {
+                content: '';
+            }
+            40% {
+                content: '.';
+            }
+            60% {
+                content: '..';
+            }
+            80%, 100% {
+                content: '...';
+            }
+        }
+    </style>
+
+    <script>
+        // Tự động hiển thị modal sau 3 giây với hiệu ứng
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('#registerModal').modal('show');
+            }, 3000); // 3000ms = 3 giây
+        });
+
+        // Xử lý submit form popup với loading animation
+        $('#form-dang-ky-popup').on('submit', function(e) {
+            e.preventDefault();
+            
+            var $submitBtn = $(this).find('.btn-submit-modern');
+            var originalText = $submitBtn.html();
+            
+            // Thêm loading state
+            $submitBtn.addClass('loading');
+            $submitBtn.html('<span>Đang xử lý</span>');
+            
+            var formData = $(this).serialize();
+            
+            $.ajax({
+                url: $(this).attr('action'),
+                type: 'POST',
+                data: formData,
+                success: function(response) {
+                    // Animation thành công
+                    $('#form-alert-popup').html(
+                        '<div class="alert alert-success">' +
+                        '<i class="fas fa-check-circle me-2"></i>' +
+                        'Đăng ký bộ dề thành công' +
+                        '</div>'
+                    );
+                    $('#form-dang-ky-popup')[0].reset();
+                    
+                    // Hiệu ứng confetti (tùy chọn)
+                    createConfetti();
+                    
+                    // Tự động đóng modal sau 3 giây
+                    setTimeout(function() {
+                        $('#registerModal').modal('hide');
+                        $submitBtn.removeClass('loading');
+                        $submitBtn.html(originalText);
+                        $('#form-alert-popup').html('');
+                    }, 3000);
+                },
+                error: function(xhr) {
+                    $submitBtn.removeClass('loading');
+                    $submitBtn.html(originalText);
+                    
+                    $('#form-alert-popup').html(
+                        '<div class="alert alert-danger">' +
+                        '<i class="fas fa-exclamation-circle me-2"></i>' +
+                        '<strong>Lỗi!</strong> Có lỗi xảy ra. Vui lòng thử lại!' +
+                        '</div>'
+                    );
+                }
+            });
+        });
+
+        // Hiệu ứng confetti khi đăng ký thành công
+        function createConfetti() {
+            const colors = ['#FF5C65', '#FF6B00', '#00AF31', '#0142A5'];
+            const confettiCount = 50;
+            
+            for (let i = 0; i < confettiCount; i++) {
+                const confetti = $('<div class="confetti"></div>');
+                confetti.css({
+                    position: 'fixed',
+                    width: '10px',
+                    height: '10px',
+                    backgroundColor: colors[Math.floor(Math.random() * colors.length)],
+                    left: Math.random() * 100 + '%',
+                    top: '-10px',
+                    opacity: 1,
+                    transform: 'rotate(' + Math.random() * 360 + 'deg)',
+                    zIndex: 9999
+                });
+                
+                $('body').append(confetti);
+                
+                confetti.animate({
+                    top: '100vh',
+                    opacity: 0,
+                    left: '+=' + (Math.random() * 200 - 100) + 'px'
+                }, 2000 + Math.random() * 1000, function() {
+                    $(this).remove();
+                });
+            }
+        }
+
+        // Thêm hover effect cho inputs
+        $(document).on('focus', '.input-modern', function() {
+            $(this).parent().find('i').css({
+                'transform': 'translateY(-50%) scale(1.2)',
+                'color': '#FF5C65'
+            });
+        });
+
+        $(document).on('blur', '.input-modern', function() {
+            $(this).parent().find('i').css({
+                'transform': 'translateY(-50%) scale(1)',
+                'color': '#FF5C65'
+            });
+        });
+    </script>
 </body>
 <script>
     $(document).ready(function () {

@@ -48,7 +48,7 @@ class MainController extends Controller
             Log::error('Google Sheets Error: ' . $e->getMessage());
         }
         
-        return response()->json(['msg' => 'Bạn đã đăng ký học thử thành công']);
+        return response()->json(['msg' => 'Đăng ký bộ đề  thành công']);
     }
 
     public function UserRegisterHPN2(Request $request)
@@ -90,7 +90,7 @@ class MainController extends Controller
             Log::error('Google Sheets Error: ' . $e->getMessage());
         }
         
-        return response()->json(['msg' => 'Bạn đã đăng ký học thử thành công']);
+        return response()->json(['msg' => 'Đăng ký bộ đề  thành công']);
     }
 
     public function admin(){
